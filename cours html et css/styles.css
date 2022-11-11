@@ -1,0 +1,62 @@
+/*CSS*/
+            /* commentaires: <p style="font-size:..px"> ...texte</p>                               taille de texte ecrire en CSS 1 facon*/
+            /* commentaire: <style>   p{font-size:..px}    </style>                                taille de texte ecrire en css 2eme facon mais ils ont ecrirent en <head>*/                             
+            /* commentaire: <link rel="stylesheet" href="nom de fichier.css">                      taille de text en css 3eme fac dans <head> et en ajout nv fichier et ecriv p{....}*/
+            /* commentaire: color : rgb(0,0,255)                                                   faire de color ne pas connue de CSS ou bien #code hexadicimale ou bien rgba(0,0,255,alpha=de 0 a 1. alpha c'est la trasparence de texte)*/
+            /* commentaire: font-size:30px ou bien font-size : 1em                                 unité de mesure de taille de texte 1emce la taille reel et on ajoute pour agrandir 2em,... ou bien pour diminuer 0.5em */
+            /*commentaire: font-family: Arial, Helvetica, sans-serif;                              avoir le police de texte,syst de retrappage, il ya trois police integr dans CSS qui sont serif, sans-serif et cursive */
+            /*commentaire: font-weight: bold;                                                      pour ecrir le texte en gras*/
+            /*commentaire: text-align: center;                                                     pour ecrir le texte dans le centre ou bien right ou left*/
+            /*commentaire: p{},h1{}...                                                             sont tous de selecteur si il ya h1 dans deus div on ecrit div div h1{} */
+            /*commentaire: dans html ecrit<p class= nom de class> et css ecrit .nom de class{}     selctr: quand on utilise le mm style dans un diffr elemnts*/
+            /*commentaire: dans html ecrt <p id="nom">....</p> et CSS ecrt #unique {...}           selctr: quand on utilise un style dans un elemnts unique*/
+            /*commentaire: html:<a href="site"> nom site</a> CSS...                                3 types de css 1:  a:link {forme de lien quand na pas encore été clique(couleur,...}
+                                                                                                                  2:  a:visited {forme de lien que déja cliquer dessus(couleur,...) }
+                                                                                                                  3:  a:hover {forme de lien quand je passe ma souris dessus}            */
+            /*commentaire:  typ de selecteur:first-child{....}                                      chnger forme de le premier phrase seulmt de paragraph*/
+
+            /*commentaire: type de selct {display:block;}                                          chacun des élemt oblige l'elm suivant à aller à la ligne
+                                          {display:inline}                                         le pragr prend juste ce quil a besion et met le ligne suivt juste aprés et on remrq que on ne peut pas change le largeur de paragraph
+                                          {display:inline-block}                                   on peut changer le largeur de paragraph
+                                          {display:none}                                           ne rein afficher*/
+/*model de boite: commentaire(marge): margin:100px; donner dans tout le direction une marge de 100px;ou; margin: 10px  20px  30px 40px; ou  margin: 100px auto; haut et bas 100px et droite et gauche fixer dans le milieu;ou margin: 100px      80px;
+                                                                                                                haut droite bas  gauche                                                                                            haut et bas  droite et gauche*/ 
+                 /*commentaire(bordure): border-style: solid; faire une bordure solide;ou; border: 10px solid violet;
+                                                                                                 width  forme  couleur*/
+                 /*commentaire: padding: 50px;                                                     (badding:espace entre bordure et contenu)*/
+            /*commentaire:float: left;                                                             mettre le div en left de la page 
+                          clear: both;                                                             mettre le div avant l'autre*/
+/*positions: commentaire: position: static; c'est la position initiale,
+                          position: relative; elle ne fait rien seuls mais elle donne le pouvoir d'utiliser d'autre proprietes(top left right bottom 
+                          position: fixed; bottom: 0px; right: 0px; pour fixer le div dans l'ecran de 0 bottom et 0 right */           
+                             
+
+
+.left
+{
+    background-color: blue;
+    width: 200px;
+    height: 1450px;
+    position: static;
+
+}
+.right
+{
+    background-color: red;
+    width: 150px;
+    height: 250px;
+    position: absolute ;  
+    top: 100px;
+    left: 100px; 
+}
+#container
+{ position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
